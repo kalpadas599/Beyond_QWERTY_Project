@@ -8,6 +8,13 @@ The system architecture and workflow are illustrated in the **Lucidchart diagram
 
 [![View Flowchart](https://img.shields.io/badge/View%20Flowchart-Lucidchart-blue?style=for-the-badge)](https://lucid.app/lucidchart/7f588edb-4774-410b-9482-438fd0c3822a/edit?viewport_loc=-1283%2C-480%2C3586%2C1789%2C0_0&invitationId=inv_528b50ce-80df-4398-b5fa-36bf870dffc9)  
 
+
+## 📄 Research Documentation  
+The detailed research on Speech-to-Text models is available in the repository.  
+
+📌 **[View Research Paper](https://github.com/your-username/your-repository/blob/main/your-research-file.pdf)**  
+
+
 ## 📂 Project Modules  
 - **🎙 Voice Input & Language Processing**  
 - **🛠 Workflow Automation & Optimization**  
