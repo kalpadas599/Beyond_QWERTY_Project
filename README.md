@@ -12,7 +12,7 @@ The system architecture and workflow are illustrated in the **Lucidchart diagram
 ## 📄 Research Documentation  
 The detailed research on Speech-to-Text models is available in the repository.  
 
-📌 **[View Research Paper]([https://github.com/your-username/your-repository/blob/main/your-research-file.pdf](https://github.com/kalpadas599/Beyond_QWERTY_Project/blob/main/Comparative%20Analysis%20of%20Speech.docx))**  
+📌 **[View Research Paper]([https://github.com/your-username/your-repository/blob/main/your-research-file.pdf](https://github.com/kalpadas599/Beyond_QWERTY_Project/blob/main/Comparative%20Analysis%20of%20Speech.docx)**  
 
 
 ## 📂 Project Modules  
