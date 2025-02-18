@@ -19,6 +19,11 @@ The detailed research on Speech-to-Text models is available in the repository.
 
 📌 **[View My Certification](https://drive.google.com/drive/u/1/folders/1BYn3JTq1VyIOH87Sa8AIov1NlIf9MIA1)** 
 
+https://colab.research.google.com/drive/1VW7wHyf2s3nELHlG4hmU6gwQ94OuaShV#scrollTo=EM6upgxMQKdN
+## 📄 Google Collab link
+
+📌 **[View My Collab](https://colab.research.google.com/drive/1VW7wHyf2s3nELHlG4hmU6gwQ94OuaShV#scrollTo=EM6upgxMQKdN)** 
+
 
 ## 📂 Project Modules  
 - **🎙 Voice Input & Language Processing**  
