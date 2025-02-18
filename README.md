@@ -13,6 +13,7 @@ The system architecture and workflow are illustrated in the **Lucidchart diagram
 The detailed research on Speech-to-Text models is available in the repository.  
 
 📌 **[View Research Paper](https://drive.google.com/drive/folders/1OHelb_6zL_I_WRSQi2-wZ9vyQXlxjWNU)**  
+📌 **[Run Whisper Model on Google Colab](https://colab.research.google.com/drive/1KcmaD4bWt3FUgYEcy6J0AiDgSBXN-AX3#scrollTo=xlTUP7NPmPQp)**
 
 
 ## 📄 Hackerrank Certification 
