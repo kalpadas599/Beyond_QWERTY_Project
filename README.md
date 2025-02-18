@@ -31,8 +31,9 @@ The detailed research on Speech-to-Text models is available in the repository.
 - **🚀 Cloud Deployment & Testing**  
 
 ## ⚡ Technologies Used  
-- **Azure OpenAI & GPT**  
-- **Speech-to-Text APIs**  
+- **OpenAI Whisper & GPT**  
+- **Speech-to-Text APIs**
+- **My SQL database** 
 - **Cloud Deployment (Azure/AWS/GCP)**  
 - **Multilingual Translation Models**  
 
@@ -45,7 +46,3 @@ The detailed research on Speech-to-Text models is available in the repository.
 
 ## 🚀 Contributing  
 Feel free to contribute by raising issues or submitting pull requests!  
-
----
-
-This will create a **structured and professional** README file. Let me know if you need any modifications! 😊🚀
