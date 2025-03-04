@@ -1,4 +1,4 @@
-# Project Title
+# Beyond_QWERTY
 
 ## Overview
 This project is a web application designed to provide various forms for user interaction. It includes features such as sign-in, sign-up, and various forms for different purposes.
@@ -37,7 +37,7 @@ Replace `PORT` with the port number your local server is using.
 - **Customizable:** Developers can easily modify the forms and styles to fit their specific needs.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/kalpadas599/Beyond_QWERTY_Project/blob/99b8e88d0cfa1e818e97f8febd4a907f662213d8/LICENSE) file for details.
 
 ## Acknowledgments
 - Thanks to all contributors and libraries that made this project possible.
