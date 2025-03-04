@@ -1,0 +1,160 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open a Bank Account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="bank-form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Open a Bank Account</h1>
+        <h2>Bank Account Opening Form</h2>
+        <form>
+            <div class="grid grid-2 mb-4">
+                <div>
+                    <label for="first-name">First Name</label>
+                    <div class="relative mt-1">
+                        <input type="text" id="first-name">
+                        <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('first-name')"></i>
+                    </div>
+                </div>
+                <div>
+                    <label for="last-name">Last Name</label>
+                    <div class="relative mt-1">
+                        <input type="text" id="last-name">
+                        <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('last-name')"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="dob">Date of Birth</label>
+                <div class="relative mt-1">
+                    <input type="date" id="dob" placeholder="yyyy-mm-dd" > <!-- style="padding-right: 2.3rem;"-->
+                    <!-- <i class="fas fa-calendar-alt absolute right-3 top-3 text-gray-400" ></i> -->
+                    <!-- <i class="fas fa-microphone absolute right-3 top-3 text-gray-400"   onclick="startVoiceInput('dob')"></i> -->
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="ssn">Social Security Number</label>
+                <div class="relative mt-1">
+                <input type="text" id="ssn">
+                <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('ssn')"></i>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="email">Email</label>
+                <div class="relative mt-1">
+                    <input type="email" id="email">
+                    <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('email')"></i>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="phone">Phone</label>
+                <div class="relative mt-1">
+                    <input type="text" id="phone">
+                    <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('phone')"></i>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="address">Address</label>
+                <div class="relative mt-1">
+                <input type="text" id="address">
+                <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('address')"></i>
+                </div>
+            </div>
+            <div class="grid grid-3 mb-4">
+                <div>
+                    <label for="city">City</label>
+                    <div class="relative mt-1">
+                        <input type="text" id="city">
+                        <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('city')"></i>
+                    </div>
+                </div>
+                <div>
+                    <label for="state">State</label>
+                    <div class="relative mt-1">
+                        <input type="text" id="state">
+                        <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('state')"></i>
+                    </div>
+                </div>
+                <div>
+                    <label for="zip">Zip Code</label>
+                    <div class="relative mt-1">
+                    <input type="number" id="zip">
+                    <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('zip')"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="employment-status">Employment Status</label>
+                <select id="employment-status">
+                    <option>Select employment status</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="annual-income">Annual Income</label>
+                <div class="relative mt-1">
+                <input type="text" id="annual-income">
+                <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('annual-income')"></i>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="account-type">Account Type</label>
+                <select id="account-type">
+                    <option>Select account type</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="initial-deposit">Initial Deposit Amount</label>
+                <div class="relative mt-1">
+                <input type="text" id="initial-deposit">
+                <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('initial-deposit')"></i>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="id-document">Identification Document (e.g., Driver's License, Passport)</label>
+                <input type="file" id="id-document">
+            </div>
+            <div class="mb-4">
+                <label for="proof-address">Proof of Address (e.g., Utility Bill, Lease Agreement)</label>
+                <input type="file" id="proof-address">
+            </div>
+            <div class="mb-4">
+                <label>Preferred Contact Method</label>
+                <div class="mt-2 space-y-2">
+                    <div class="flex items-center">
+                        <input id="contact-email" name="contact-method" type="radio">
+                        <label for="contact-email" class="ml-3">Email</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input id="contact-phone" name="contact-method" type="radio">
+                        <label for="contact-phone" class="ml-3">Phone</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input id="contact-mail" name="contact-method" type="radio">
+                        <label for="contact-mail" class="ml-3">Mail</label>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="comments">Additional Comments or Questions</label>
+                <div class="relative mt-1">
+                <textarea id="comments" rows="4"></textarea>
+                <i class="fas fa-microphone absolute right-3 top-3 text-gray-400" onclick="startVoiceInput('comments')"></i>
+                </div>
+            </div>
+            <div class="mb-4 flex items-center">
+                <input id="terms" type="checkbox">
+                <label for="terms" class="ml-2">I agree to the terms and conditions</label>
+            </div>
+            <div>
+                <button type="submit" class="w-full bg-black text-white py-2 px-4 rounded-md shadow-sm hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Open Account</button>
+            </div>
+        </form>
+    </div>
+    <script src="voi-to-spe.js"></script>
+</body>
+</html>

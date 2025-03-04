@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.day-mode {
+    background-color: white;
+    color: black;
+}
+
+.night-mode {
+    background-color: black;
+    color: black;
+}
+
+#toggleBtn {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #3d6ae5;
+    color: white;
+    width: 150px;
+}
+
+#toggleBtn:hover {
+    background: #1847c8;
+}

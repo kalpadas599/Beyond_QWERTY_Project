@@ -1,0 +1,64 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Templates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="day-night.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Form Templates</h1>
+            <button id="toggleBtn">🌙 Night Mode</button>
+            <button onclick="startSpeechSelection()">
+                <i class="fas fa-microphone"></i> 
+                Speak to Select Form
+            </button>
+            <button onclick="window.location.href = 'form.html'">
+                <i class="fas fa-plus" ></i>
+                Create New Form
+            </button>
+        </div>
+        <div class="grid">
+            <!-- <div class="card" id="bank-form">
+                <h2>Bank Account Opening Form</h2>
+                <p>Basic contact form with name, email, and message fields</p>
+                <p>2 fields</p>
+                <div class="actions">
+                    <div class="icons">
+                        <button><i class="fas fa-edit"></i></button>
+                        <button><i class="fas fa-trash" onclick="deleteTemplate('bank-form')"></i></button>
+                    </div>
+                    <button class="use-template" onclick="window.location.href = 'bank-form.html'">
+                        Use Template
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card" id="job-form">
+                <h2>Job Application Form</h2>
+                <p>Standard job application form with personal and professional details</p>
+                <p>2 fields</p>
+                <div class="actions">
+                    <div class="icons">
+                        <button><i class="fas fa-edit"></i></button>
+                        <button><i class="fas fa-trash" onclick="deleteTemplate('job-form')"></i></button>
+                    </div>
+                    <button class="use-template" onclick="window.location.href = 'job-form.html'">
+                        Use Template
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+    <script src="day-night.js"></script>
+</body>
+</html>

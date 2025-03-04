@@ -1,0 +1,85 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="job-form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Job Application</h1>
+        <form>
+            <div class="mb-6">
+                <h2>Personal Information</h2>
+                <div class="mb-4">
+                    <label for="name">Full Name</label>
+                    <div class="relative">
+                        <input type="text" id="name"/>
+                        <i class="fas fa-microphone" onclick="startVoiceInput('name')"></i>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <label for="email">Email</label>
+                    <div class="relative">
+                        <input type="email" id="email"/>
+                        <i class="fas fa-microphone" onclick="startVoiceInput('email')"></i>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <label for="phone-number">Phone</label>
+                    <div class="relative">
+                        <input type="tel" id="phone-number"/>
+                        <i class="fas fa-microphone" onclick="startVoiceInput('phone-number')"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-6">
+                <h2>Job Details</h2>
+                <div class="mb-4">
+                    <label>Position Applied For</label>
+                    <div class="relative">
+                        <select>
+                            <option>Select a position</option>
+                            <option>computer operator</option>
+                            <option>laptop operator</option>
+                            <option>printer operator</option>
+                            <!-- Add other options as needed -->
+                        </select>
+                        <!-- <i class="fas fa-microphone"></i> -->
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <label for="years">Years of Experience</label>
+                    <div class="relative">
+                        <input type="number" id="years"/>
+                        <i class="fas fa-microphone" onclick="startVoiceInput('years')"></i>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <label for="education">Education</label>
+                    <div class="relative">
+                        <textarea id="education"></textarea>
+                        <i class="fas fa-microphone" onclick="startVoiceInput('education')"></i>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <label for="skills">Skills</label>
+                    <div class="relative">
+                        <textarea id="skills"></textarea>
+                        <i class="fas fa-microphone" onclick="startVoiceInput('skills')"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </div>
+        </form>
+    </div>
+    <script src="voi-to-spe.js"></script>
+</body>
+
+</html>

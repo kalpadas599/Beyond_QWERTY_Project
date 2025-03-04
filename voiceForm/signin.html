@@ -1,0 +1,41 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="day-night.css">
+
+</head>
+
+<body>
+    <!-- <div class="hero"> -->
+        <button id="toggleBtn">🌙 Night Mode</button>
+        <div class="container">
+            <h2>Welcome back</h2>
+            <p>Enter your credentials to sign in</p>
+            <form onsubmit="handleSignIn(event)">
+                <div class="form-group">
+                    <input type="email" placeholder="name@example.com" id="email">
+                    <i class="fas fa-microphone" onclick="startVoiceInput('email')"></i>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Enter your password" id="password">
+                    <i class="fas fa-microphone" style="right: 3.5rem;" onclick="startVoiceInput('password')"></i>
+                    <i id="togglePasswordIcon" class="fas fa-eye" onclick="togglePassword()"></i>
+                </div>
+                <button type="submit" class="signin-button">Sign in</button>
+            </form>
+            <p class="signup">Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+    <!-- </div> -->
+    <script src="voi-to-spe.js"></script>
+    <script src="signin.js"></script>
+    <script src="day-night.js"></script>
+</body>
+
+</html>

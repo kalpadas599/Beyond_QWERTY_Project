@@ -1,0 +1,39 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create an account</h2>
+        <p>Enter your information to get started</p>
+        <form onsubmit="storeUserData(event)">
+            <div class="input-group">
+                <input type="text" placeholder="Enter your name" id="name">
+                <i class="fas fa-microphone"  onclick="startVoiceInput('name')"></i>
+            </div>
+            <div class="input-group">
+                <input type="email" placeholder="name@example.com" id="email">
+                <i class="fas fa-microphone" onclick="startVoiceInput('email')"></i>
+            </div>
+            <div class="input-group">
+                <input id="password" type="password" placeholder="Create a password" >
+                <!-- <button type="button" onclick="togglePassword()"> -->
+                    <i id="togglePasswordIcon" class="fas fa-eye" onclick="togglePassword()"></i>
+                <!-- </button> -->
+                <i class="fas fa-microphone" style="right: 3.5rem;" onclick="startVoiceInput('password')"></i>
+            </div>
+            <button type="submit" class="btn">Create account</button>
+        </form>
+        <p class="signin-link">Already have an account? <a href="signin.html">Sign in</a></p>
+    </div>
+
+    <script src="voi-to-spe.js"></script>
+    <script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormBuilder</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="day-night.css">
+</head>
+<body>
+    <div class="container">
+        <header class="flex justify-between items-center py-4">
+            <h1 class="text-xl font-semibold">FormBuilder</h1>
+            <button id="toggleBtn">☀️ night Mode</button>
+            <!-- <div class="flex items-center space-x-4">
+                <a class="text-gray-600" href="#">Documentation</a>
+                <i class="fas fa-cog text-gray-600"></i>
+            </div> -->
+        </header>
+        <main class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <section class="bg-white p-6 rounded-lg shadow-md">
+                <!-- <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-semibold">Form Builder</h2>
+                    <div class="space-x-2">
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded">Reset</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded">Export</button>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-2">AI Form Generator</h3>
+                    <textarea class="w-full p-2 border rounded mb-2" placeholder="Describe the form you want to create, e.g., 'Create a contact form with name, email, and message fields'" rows="3"></textarea>
+                    <div class="flex space-x-2 mb-4">
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded">Create a contact form with name, email...</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded">Make a signup form with username, ema...</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded">Build a job application form with per...</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded">Generate a feedback form with rating...</button>
+                    </div>
+                    <button class="w-full px-4 py-2 bg-gray-700 text-white rounded">Generate Fields</button>
+                </div> -->
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-2">Form Title</h3>
+                    <div class="relative">
+                        <input class="w-full p-2 border rounded pr-10" placeholder="Untitled Form" type="text" id="name"/>
+                        <i class="fas fa-microphone absolute right-3 top-3 text-gray-500" onclick="startVoiceInput('name')"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Describe</h3>
+                    <div class="relative">
+                        <input class="w-full p-2 border rounded pr-10" placeholder="Description" type="text" id="description"/>
+                        <i class="fas fa-microphone absolute right-3 top-3 text-gray-500" onclick="startVoiceInput('description')"></i>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Form Fields</h3>
+                    <div class="bg-gray-100 p-4 rounded-lg mb-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-semibold">Field Label</span>
+                            <span class="font-semibold">Field Type</span>
+                        </div>
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="relative w-3/4">
+                                <input class="w-full p-2 border rounded pr-12" placeholder="New Field" type="text" id="new-field"/>
+                                <i class="fas fa-microphone absolute right-2 top-3 text-gray-500" onclick="startVoiceInput('new-field')"></i>
+                            </div>
+                            <select class="w-3/4 p-2 border rounded select-field">
+                                <option>Text</option>
+                                <option>number</option>
+                                <option>email</option>
+                            </select>
+                        </div>
+                        <div class="relative mb-2">
+                            <input class="w-full p-2 border rounded pr-12" placeholder="Enter value" type="text" id="enter-value"/>
+                            <i class="fas fa-microphone absolute right-2 top-3 text-gray-500" onclick="startVoiceInput('enter-value')"></i>
+                        </div>
+                        <div class="flex items-center">
+                            <input class="mr-2" type="checkbox"/>
+                            <span>Required field</span>
+                        </div>
+                    </div>
+                    <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded add-field">+ Add Field</button>
+                </div>
+            </section>
+            <section class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-4">Form Preview</h2>
+                <div class="bg-gray-100 p-4 rounded-lg preview">
+                    <h3 id="preview-title" class="text-lg font-semibold mb-2">Untitled Form</h3>
+                    <p id="preview-description" class="text-gray-600 mb-4">Form description...</p>
+
+                    <!-- <h3 class="text-lg font-semibold mb-2">Untitled Form</h3>
+                    <p class="text-gray-600 mb-4">Preview how your form will appear to users</p> -->
+                    <div class="relative mb-4 preview-field">
+                        <label class="block text-gray-700 mb-2">New Field</label>
+                        <div class="relative">
+                            <input class="w-full p-2 border rounded pr-12" placeholder="Enter value" type="text" id="value"/>
+                            <i class="fas fa-microphone absolute right-2 top-3 text-gray-500" onclick="startVoiceInput('value')"></i>
+                        </div>
+                    </div>
+                </div>
+                <button class="w-full px-4 py-2 bg-blue-500 text-white rounded submit">Submit</button>
+            </section>
+        </main>
+    </div>
+    <script src="day-night.js"></script>
+    <script src="voi-to-spe.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
