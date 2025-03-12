@@ -110,9 +110,8 @@ Ensure you have the following installed on your system:
   npm run preview
   ```
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/kalpadas599/Beyond_QWERTY_Project/blob/99b8e88d0cfa1e818e97f8febd4a907f662213d8/LICENSE) file for details.
-
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kalpadas599/Beyond_QWERTY_Project/blob/99b8e88d0cfa1e818e97f8febd4a907f662213d8/LICENSE)  
+This project is licensed under the MIT License 
+- see the [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/kalpadas599/Beyond_QWERTY_Project/blob/99b8e88d0cfa1e818e97f8febd4a907f662213d8/LICENSE) file for details. 
 
 ## Acknowledgments
 - Thanks to all contributors and libraries that made this project possible.
