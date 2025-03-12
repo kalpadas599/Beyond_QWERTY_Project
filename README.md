@@ -1,7 +1,19 @@
 # Beyond QWERTY: Form Filling's Vernacular Voyage with Voice Versatility!  
 
 ## 📌 Project Overview  
-This project aims to revolutionize form-filling processes by leveraging **Speech-to-Text Recognition** and **AI-powered translation**, making workflows seamless for **frontline workers (FLWs)** and beyond.  
+**Beyond QWERTY** is an AI-powered, voice-enabled form-filling system designed to make digital interactions effortless. Using advanced **speech recognition**, it allows users to fill forms seamlessly, reducing typing effort and eliminating manual data entry challenges. It also breaks language barriers, improving inclusivity and accessibility.
+
+## ❌ Problems in Traditional Form Filling  
+- Time-consuming and error-prone process  
+- Typing difficulties for non-tech users, elderly, and differently-abled individuals  
+- Language barriers hinder vernacular users  
+- Need for a **voice-enabled, AI-powered solution** to simplify form-filling
+
+## ✅ Our Solution  
+- **🎤 Voice-Enabled Form Filling** – Users can speak instead of typing, making the process faster and more convenient.  
+- **🤖 AI-Powered Error Correction** – NLP ensures accurate text input, reducing mistakes.  
+- **🖥️ User-Friendly Interface** – Simple and intuitive UI for easy navigation.  
+- **🌍 Accessibility for All** – Designed to assist elderly users and differently-abled individuals.  
 
 ## 🔗 Project Flowchart  
 The system architecture and workflow are illustrated in the **Lucidchart diagram** linked below:  
@@ -25,26 +37,49 @@ The detailed research on Speech-to-Text models is available in the repository.
 
 📌 **[View My Collab](https://colab.research.google.com/drive/1VW7wHyf2s3nELHlG4hmU6gwQ94OuaShV#scrollTo=EM6upgxMQKdN)** 
 
+## 🛠️ Technology Stack  
+### **AI Services**  
+- **Gemini** – AI-driven text processing  
+- **AssemblyAI** – Speech-to-text conversion  
 
-## 📂 Project Modules  
-- **🎙 Voice Input & Language Processing**  
-- **🛠 Workflow Automation & Optimization**  
-- **🔗 Integration with External Services**  
-- **🚀 Cloud Deployment & Testing**  
+### **Full Stack Development**  
+- **Frontend:** React.js *(Hosted on Vercel)*  
+- **Backend:** Express.js *(Hosted on Render)*  
+- **Database:** NeonDB *(For storing structured data)*
 
-## ⚡ Technologies Used  
-- **OpenAI Whisper & GPT**  
-- **Speech-to-Text APIs**
-- **My SQL database** 
-- **Cloud Deployment (Azure/AWS/GCP)**  
-- **Multilingual Translation Models**  
+## 🔑 Key Features & Benefits  
+### Features  
+✅ Multi-Language Support  
+✅ AI-Powered Processing  
+✅ Real-Time Error Detection  
+✅ Seamless Integration 
 
-## 🏗 Roadmap  
-1️⃣ **Research & Tool Selection**  
-2️⃣ **Prototype Development**  
-3️⃣ **Workflow Automation & Integration**  
-4️⃣ **Testing & Optimization**  
-5️⃣ **Deployment & Scaling**  
+### Benefits  
+✔️ **Increased Accessibility**  
+✔️ **Higher Accuracy**  
+✔️ **User-Friendly**  
+✔️ **Boosts Productivity**
 
-## 🚀 Contributing  
-Feel free to contribute by raising issues or submitting pull requests!  
+## 💻 How to Download and Start the Project
+### **Prerequisites**  
+Ensure you have the following installed on your system:  
+- **Node.js** (Latest LTS version)  
+- **Git**  
+- **A code editor** (VS Code recommended)
+
+### **Steps to Download and Run**  
+1. **Clone the Repository**  
+   ```bash  
+   git clone https://github.com/your-repo/beyond-qwerty.git  
+   cd beyond-qwerty
+2. **Install Dependencies**  
+
+
+## 💡 How to Contribute  
+We welcome contributions! Here's how you can help:  
+1. Fork the repository.  
+2. Create a new branch (`feature-branch`).  
+3. Commit your changes.  
+4. Push to your fork and submit a Pull Request (PR).
+
+  ### 🚀 Let's build the future of AI-powered accessibility together! 🎤🤖
