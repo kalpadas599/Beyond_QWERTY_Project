@@ -116,11 +116,7 @@ Ensure you have the following installed on your system:
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/kalpadas599/Beyond_QWERTY_Project/blob/99b8e88d0cfa1e818e97f8febd4a907f662213d8/LICENSE) file for details.
 
 
-## 💡 How to Contribute  
-We welcome contributions! Here's how you can help:  
-1. Fork the repository.  
-2. Create a new branch (`feature-branch`).  
-3. Commit your changes.  
-4. Push to your fork and submit a Pull Request (PR).
+## Acknowledgments
+- Thanks to all contributors and libraries that made this project possible.
 
-  ### 🚀 Let's build the future of AI-powered accessibility together! 🎤🤖
+### 🚀 Let's build the future of AI-powered accessibility together! 🎤🤖
