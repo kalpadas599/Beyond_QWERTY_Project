@@ -72,11 +72,49 @@ Ensure you have the following installed on your system:
    ```bash  
    git clone https://github.com/your-repo/beyond-qwerty.git  
    cd beyond-qwerty
-2. **Install Dependencies**  
+### Backend Setup
+ 
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+2. Install the backend dependencies:
    ```bash
    npm install
-4. **Set Up Environment Variables**
-   
+   ```
+3. Create a `.env` file in the backend directory and configure your environment variables as needed. You can refer to the `.env.example` file for guidance.
+4. Start the backend server:
+   ```bash
+   node server.js
+   ```
+### Frontend Setup
+1. Navigate to the frontend directory:
+   ```bash
+   cd ../vaaniFill
+   ```
+2. Install the frontend dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the frontend development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and go to `http://localhost:3000` to view the application.
+### Additional Information
+
+- For building the frontend for production, run:
+  ```bash
+  npm run build
+  ```
+
+- To preview the production build, run:
+  ```bash
+  npm run preview
+  ```
+## License
+This project is licensed under the ISC License.
+
 
 ## 💡 How to Contribute  
 We welcome contributions! Here's how you can help:  
