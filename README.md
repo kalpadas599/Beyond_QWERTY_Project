@@ -73,7 +73,10 @@ Ensure you have the following installed on your system:
    git clone https://github.com/your-repo/beyond-qwerty.git  
    cd beyond-qwerty
 2. **Install Dependencies**  
-
+   ```bash
+   npm install
+4. **Set Up Environment Variables**
+   
 
 ## 💡 How to Contribute  
 We welcome contributions! Here's how you can help:  
