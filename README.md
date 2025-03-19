@@ -59,7 +59,7 @@ The detailed research on Speech-to-Text models is available in the repository.
 ✔️ **Boosts Productivity**
 
 ## Deployment Link
-**[View Deployment Link](https://beyondqwerty.vercel.app/)**  
+**[View Deployment Link](https://beyond-qwerty.vercel.app/)**  
 
 ## 💻 How to Download and Start the Project
 ### **Prerequisites**  
