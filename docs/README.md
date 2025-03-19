@@ -8,6 +8,9 @@ This project is a web application designed to provide various forms for user int
 - Multiple forms available for different use cases (e.g., job applications, bank forms).
 - Day and night mode for better accessibility.
 - Easy to customize and extend.
+- 
+## Deployment Link
+**[View Deployment Link](https://kalpadas599.github.io/Beyond_QWERTY_Project/)** 
 
 ## Deployment Instructions
 To deploy this project on your local machine, follow these steps:
